@@ -10,13 +10,19 @@
       "email": "heiszler.norbert@gmail.com"
     }
   ],
+  "repositories": [
+      {
+          "type": "git",
+          "url": "https://github.com/mlueck88/SonataExtendedAdminBundle.git"
+      }
+  ],
   "require": {
     "php": ">=5.4",
-    "sonata-project/admin-bundle": "2.3.*",
-    "sonata-project/doctrine-orm-admin-bundle": "2.3.*",
-    "sonata-project/page-bundle": "2.3.*",
+    "sonata-project/admin-bundle": "~3",
+    "sonata-project/doctrine-orm-admin-bundle": "~3",
+    "sonata-project/page-bundle": "~3",
     "stof/doctrine-extensions-bundle": "~1.2",
-    "skillberto/sonata-extended-admin-bundle": "~2.3"
+    "skillberto/sonata-extended-admin-bundle": "@dev"
   },
   "require-dev": {
     "phpunit/phpunit": "~4"
